@@ -30,6 +30,11 @@ export class CalendarComponent {
 
       return d.start;
     })
-  })
+  });
+
+
+  constructor(){
+    console.log(this.daysOfMonth())
+  }
 
 }

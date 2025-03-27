@@ -1,1 +1,15 @@
-<p>calendar works!</p>
+<div class="calendar-container">
+    <div class="calendar">
+        <div class="calendar-headline">
+            <div class="calendar-headline-month">
+                {{fistDayOfActiveMonth().monthShort}},
+                {{fistDayOfActiveMonth().year}}                
+            </div>
+            <div class="calendar-headline-controls">
+                <div class="calendar-headline-control"><<</div>
+                <div class="calendar-headline-control calendar-headline-control-today ">Today</div>
+                <div class="calendar-headline-control">>></div>
+            </div>
+        </div>
+    </div>
+</div>
