@@ -7,9 +7,14 @@
             </div>
             <div class="calendar-headline-controls">
                 <div class="calendar-headline-control"><<</div>
-                <div class="calendar-headline-control calendar-headline-control-today ">Today</div>
+                <div class="calendar-headline-control calendar-headline-control-today ">Bugün</div>
                 <div class="calendar-headline-control">>></div>
             </div>
+        </div>
+        <div class="calendar-weeks-grid">
+            @for(days of weekDays(); track $index){
+                <div class="calendar-weeks-grid-cell">{{days}}</div>
+            }
         </div>
     </div>
 </div>
